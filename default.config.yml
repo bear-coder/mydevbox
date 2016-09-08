@@ -1,0 +1,12 @@
+---
+
+vagrant_box: ubuntu/xenial64
+vagrant_hostname: mydev.box
+
+vagrant_private_ip: 192.168.10.42
+
+sites:
+  - servername: mydev.box
+    serveralias: www.mydev.box
+    docroot: /var/www/mydevbox/
+    
